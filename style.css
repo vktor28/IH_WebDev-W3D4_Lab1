@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  vertical-align: middle;
+  height: 100vh;
+  display: flex;
+}
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: rgb(254, 155, 155);
+}
+.cuadrado:hover {
+  background-color: rgb(139, 203, 230);
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
